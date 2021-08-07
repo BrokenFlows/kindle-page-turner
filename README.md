@@ -82,10 +82,10 @@ I recommend following [this article](https://www.twilio.com/blog/programming-ras
 If you copy [main.py](./main.py) onto the Raspberry Pi Pico, after installing micropython and setting up the hardware, it should allow buttons to turn the pages of the kindle.
 
 ### Testing
-Once the software is loaded, and the Pico restarted, try pressing the buttons to see if the servos move as expected.
+Once the software is loaded, each time the Pico is restarted it should flash a green LED for 1s. This will signal that the software was loaded successfully.
+Then, you should try pressing the buttons to see if the servos move as expected.
 If they do not, review the previous steps to resolve your issue.
 
 It is recommended not to have your Kindle in the case when first testing, should the servos try to rotate past the screen.
 If the rotation is off, reattach the servo horns to a better angle and try again.
-
 
