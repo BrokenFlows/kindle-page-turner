@@ -1,4 +1,7 @@
 # Kindle Page Turner
+
+**Documentation still ongoing, but all required files are in the repo**
+
 The goal of this project is to turn the pages of a kindle using external buttons, for when the kindle is in a stand. Navigating the user interface of the kindle is outside the capabilities of this project.
 
 This will be done with a kindle, a 3D-printed case, a Raspberry Pi Pico, a pair of servo motors, and some external buttons.
