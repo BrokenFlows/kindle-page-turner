@@ -41,11 +41,13 @@ Item # | Quantity | Part # | Part Name                                          
 
 #### 3D Printing
 I recommend 3D printing the stl files at the following settings:
-* Filament: PLA or similar
-* Nozzle Diameter: 0.4 mm or smaller
-* Layer Height: 0.2 mm or less
-* Infill: 20% or more
-* Supports: Off
+Setting         | Value
+----------------|------
+Filament        | PLA or similar
+Nozzle Diameter | 0.4 mm or smaller
+Layer Height    | 0.2 mm or less
+Infill          | 20% or more
+Supports        | Off
 
 #### Pre-Assembly
 1. Place the servo motors into their respective housings, on the left and right sides of the Kindle housing, with their wires through the holes at the back. If the servos have connectors at the end of the wires, cut the connectors off before separating the wires by ~7 cm and stripping the ends.
