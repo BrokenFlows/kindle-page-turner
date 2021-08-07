@@ -26,8 +26,10 @@ while True:
         right_servo.duty_ns(500000) # move servo to screen 
         sleep_ms(200) # wait for tap to register
         right_servo.duty_ns(1300000) # re-home servo
+        sleep_ms(200) # wait for re-home
     elif left_button.value():
         left_servo.duty_ns(2500000) # move servo to screen
         sleep_ms(200) # wait for tap to register
         left_servo.duty_ns(1600000) # re-home servo
+        sleep_ms(200) # wait for re-home
 
