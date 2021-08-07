@@ -1,10 +1,14 @@
 # Kindle Page Turner
 
+![Photo of Kindle Page Turner on a desk](./images/cover.png)
+
 **Documentation still ongoing, but all required files are in the repo**
 
 The code in this repository, along with the physical components outlined in the [bill of materials](#Bill-of-Materials), can be used to turn pages of a Kindle e-reader with external buttons.
 
 I made this project to allow me to more comfortably read books, something I struggle with as a result of chronic pain. I use my hands, in a relaxed position, to press the buttons. However, one could use longer wires and potentially press the buttons with their feet to avoid using arms at all.
+
+![Animatetd GIF of Kindle Page Turner on a desk](./images/example.gif)
 
 This project allows the user to turn pages on a Kindle using external buttons, when the kindle is in a stand.
 Navigating the user interface of the Kindle is outside the capabilities of this project.
