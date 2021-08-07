@@ -2,7 +2,7 @@
 
 **Documentation still ongoing, but all required files are in the repo**
 
-The code in this repository, along with the physical components outlined in the [Bill of Materials](####Bill-of-Materials)
+The code in this repository, along with the physical components outlined in the [Bill of Materials](#Bill-of-Materials)
 
 The goal of this project is to turn the pages of a kindle using external buttons, for when the kindle is in a stand. Navigating the user interface of the kindle is outside the capabilities of this project.
 
