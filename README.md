@@ -2,15 +2,26 @@
 
 **Documentation still ongoing, but all required files are in the repo**
 
-The code in this repository, along with the physical components outlined in the [Bill of Materials](#Bill-of-Materials)
+The code in this repository, along with the physical components outlined in the [Bill of Materials](#Bill-of-Materials), can be used to turn pages of a Kindle e-reader with external buttons.
 
-The goal of this project is to turn the pages of a kindle using external buttons, for when the kindle is in a stand. Navigating the user interface of the kindle is outside the capabilities of this project.
+I made this project to allow me to more comfortably read books, something I struggle with as a result of chronic pain. I use my hands, in a relaxed position, to press the buttons. However, one could use longer wires and potentially press the buttons with their feet to avoid using arms at all.
 
-This will be done with a kindle, a 3D-printed case, a Raspberry Pi Pico, a pair of servo motors, and some external buttons.
+This project allows the user to turn pages on a Kindle using external buttons, when the kindle is in a stand.
+Navigating the user interface of the Kindle is outside the capabilities of this project.
 
 ## Instructions
+These instructions will serve as a rough guide of the steps required to make this project.
+The project, as it stands, requires off-the-shelf electronic components, custom 3D printed pieces, and relatively simple soldering.
 
 ### Hardware
+The [tools](#Tools) and [materials](#Bill-of-Materials) will be used to assemble the final product, shown above. If you have acquired the items required, you can follow the steps outlined in the [assembly](#Pre-Assembly) section.
+
+#### Tools
+- Soldering Iron
+- Solder Wire
+- 3D Printer/ 3D Printing Service/ or some means of mimicking [the case and parts](./stls/) listed below
+- Scissors/ wire cutter
+- **Optional:** wire stripper
 
 #### Bill of Materials
 Item # | Quantity | Part # | Part Name                                                                         | Description
@@ -28,13 +39,6 @@ Item # | Quantity | Part # | Part Name                                          
 11     | 6        | N/A    | [Wires](https://www.ebay.ie/itm/232901601951)                                     | Lengths of wire, to your preference (I used over 4 m of wire)
 12     | 2        | N/A    | [Buttons](https://www.ebay.ie/itm/224192810260) or [Key Switches](https://splitkb.com/collections/switches-and-keycaps) | Buttons or Switches to push when wanting to turn the page on the Kindle — I use light-weight low-profile choc switches
 
-#### Tools
-- Soldering Iron
-- Solder Wire
-- 3D Printer/ 3D Printing Service/ or some arts and crafts to mimic [the case and parts](./stls/) above
-- Scissors/ wire cutter
-- **Optional:** wire stripper
-
 #### 3D Printing
 I recommend 3D printing the stl files at the following settings:
 ### Filament
@@ -47,6 +51,20 @@ PLA or similar
 20% or more
 ### Supports
 Off
+
+#### Pre-Assembly
+1. Place the servo motors into their respective housings, on the left and right sides of the Kindle housing, with their wires through the holes at the back. If the servos have connectors at the end of the wires, cut the connectors off before separating the wires by ~7 cm and stripping the ends.
+2. Solder the button pins, that are connected when the button is pressed, to lengths of wire that are long enough to reach a desk or lap from where the Kindle will be used. I used 1m of wire to each button pin I was connecting.
+3. To avoid a mess, it is recommended that you twist, or secure with cable ties at regular intervals, the four wires.
+
+We'll complete the assembly after dealing with the circuitry portion.
+
+#### Circuit
+In this section, we'll solder the circuit to match the following diagram:
+![./images/kindle_page_turner_circuit.png]
+
+#### Assembly
+
 
 ### Software
 I recommend following [this article](https://www.twilio.com/blog/programming-raspberry-pi-pico-microcontroller-micropython) on how to install micropython and transfer files onto the Raspberry Pi Pico.
