@@ -67,7 +67,7 @@ In this section, we'll solder the circuit to match the following diagram:
 - The stylus tips must be grounded for the Kindle to detect their taps. These are shown as the yellow lines and circles to the left of the Pico.
 - The servos require 5 V to their red wires, the brown wires to be grounded, and the orange wires connected to the pins labelled on the right of the controller.
 
-Use the [tools](#Tools) to create mechanical and electrical connections between the components, as shown in the diagram.
+Use the [soldering tools](#Tools) to create mechanical and electrical connections between the components, as shown in the diagram.
 
 #### Assembly
 With the circuit ready, complete the following steps:
