@@ -41,15 +41,15 @@ Item # | Quantity | Part # | Part Name                                          
 
 #### 3D Printing
 I recommend 3D printing the stl files at the following settings:
-### Filament
+##### Filament
 PLA or similar
 ### Nozzle Diameter
 0.4 mm or smaller
-### Layer Height
+##### Layer Height
 0.2 mm or less
-### Infill
+##### Infill
 20% or more
-### Supports
+##### Supports
 Off
 
 #### Pre-Assembly
