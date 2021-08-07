@@ -61,7 +61,7 @@ We'll complete the assembly after dealing with the circuitry portion.
 
 #### Circuit
 In this section, we'll solder the circuit to match the following diagram:
-![./images/kindle_page_turner_circuit.png]
+![Circuit Diagram](./images/kindle_page_turner_circuit.png)
 
 #### Assembly
 
